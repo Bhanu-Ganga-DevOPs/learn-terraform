@@ -5,11 +5,30 @@ variable "sample_string" {
 }
 # above lines are just equivalent to sample_string="Hello World"
 
-output "output_sample_string" {
-  value = var.sample_string
+variable "sample_number" {
+  default = 10
 }
-# above lines are just equivalent to echo "Hello World"
 
-output "output_sample_string_with" {
-  value = "output_sample_string_with is ${var.sample_string}"
+variable "sample_boolean" {
+  default = true
+}
+
+# data type number and boolean does'nt require double quotes
+
+# Types of variables
+#1. List
+#2.Map(Dictionary)
+
+#List
+variable "sample_list" {
+  default = [10,"hi",true]
+}
+
+#Map
+variable "sample_map" {
+  default = {
+    name = "Tom"
+    age = 22
+    place = "Hyd"
+  }
 }
