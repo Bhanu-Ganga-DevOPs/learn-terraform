@@ -22,3 +22,7 @@ output "output_env" {
 output "output_demo_auto_number" {
   value = var.demo_auto_number
 }
+
+output "output_sample_terraformvars" {
+  value = var.sample_terraformvars
+}

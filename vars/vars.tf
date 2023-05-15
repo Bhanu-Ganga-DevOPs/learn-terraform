@@ -35,3 +35,4 @@ variable "sample_map" {
 
 variable "env" {}
 variable  "demo_auto_number" {}
+variable "sample_terraformvars" {}
