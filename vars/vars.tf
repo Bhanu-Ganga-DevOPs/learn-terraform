@@ -32,3 +32,6 @@ variable "sample_map" {
     place = "Hyd"
   }
 }
+
+variable "env" {}
+variable  "demo_auto_number" {}

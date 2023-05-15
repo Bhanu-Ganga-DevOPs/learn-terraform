@@ -7,10 +7,18 @@ output "output_sample_string_with" {
   value = "output_sample_string_with is ${var.sample_string}"
 }
 
-output "sample_list_output" {
+output "output_sample_list" {
   value = var.sample_list[1]
 }
 
-output "sample_map" {
+output "output_sample_map" {
   value = var.sample_map["name"]
+}
+
+output "output_env" {
+  value = var.env
+}
+
+output "output_demo_auto_number" {
+  value = var.demo_auto_number
 }
